@@ -7,10 +7,6 @@ import streamlit as st
 st.set_page_config(layout="wide", page_title="Main Dashboard", page_icon="📊")
 
 
-data_visualisation_page = st.Page(
-    "./Pages/python_visualisation_agent.py", title="Data Visualisation", icon="📈"
-)
-
 pg = st.navigation(
     {
         "Visualisation Agent": [data_visualisation_page]
